@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Classes\Schedule\Friday.cs" />
+    <Compile Remove="Classes\Schedule\Monday.cs" />
+    <Compile Remove="Classes\Schedule\Thursday.cs" />
+    <Compile Remove="Classes\Schedule\Tuesday.cs" />
+    <Compile Remove="Classes\Schedule\Wednesday.cs" />
+  </ItemGroup>
+
+</Project>
